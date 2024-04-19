@@ -9,6 +9,7 @@ import { CountUp } from 'countup.js';
     CommonModule,
   ],
   templateUrl: './beutifulCounters.component.html',
+  styleUrl: './beutifulCounters.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BeutifulCountersComponent implements OnInit {

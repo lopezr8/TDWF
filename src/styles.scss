@@ -3,3 +3,9 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 @import "primeicons/primeicons.css";
+
+
+@font-face {
+  font-family: 'tdr';
+  src: url('/assets/fonts/tdr.otf') format('opentype');
+}
