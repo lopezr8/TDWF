@@ -1,42 +1,57 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg mb-3">
   <div class="container-fluid">
     <app-tdr />
 
     <button class="navbar-toggler"  style="color: white;" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
 
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" >
+
       <nav class=" nav-menu">
-        <a class="nav-link">Home</a>
-        <a class="nav-link">Servicios</a>
-        <a class="nav-link">Portafolio</a>
-        <a class="nav-link">Contacto</a>
+        <!-- <nav class="navbar-nav"> -->
+
+          <a class="nav-link">Home</a>
+          <a class="nav-link">Servicios</a>
+          <a class="nav-link">Portafolio</a>
+          <a class="nav-link">Contacto</a>
+
+
+
+          <div class="nav-social">
+
+
+              <div class="collection-list">
+
+                  <a class="space social-link w-inline-block">
+                    <i class="social-icon pi pi-whatsapp" style="font-size: 2rem"></i>
+                  </a>
+                  <a class=" space social-link w-inline-block">
+                    <i class="social-icon pi pi-facebook" style="font-size: 2rem"></i>
+                  </a>
+                  <a class="social-link w-inline-block">
+                    <i class="social-icon pi pi-envelope" style="font-size: 2rem"></i>
+                  </a>
+
+
+
+              </div>
+
+          </div>
+
+
+
       </nav>
 
-      <div class="nav-social">
-        <div class="w-dyn-list">
-          <div class="collection-list w-dyn-items">
-            <div class="w-dyn-item">
-              <a class="space social-link w-inline-block">
-                <i class="social-icon pi pi-whatsapp" style="font-size: 2rem"></i>
-              </a>
-              <a class=" space social-link w-inline-block">
-                <i class="social-icon pi pi-facebook" style="font-size: 2rem"></i>
-              </a>
-              <a class="social-link w-inline-block">
-                <i class="social-icon pi pi-envelope" style="font-size: 2rem"></i>
-              </a>
 
-
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
 
 
   </div>
 </nav>
+
+
+
+
 
 
 

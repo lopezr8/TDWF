@@ -47,6 +47,23 @@
   margin-right: 206px;
   display: flex;
 }
+.w-nav-menu {
+  float: right;
+  position: relative;
+}
+
+.nav-social {
+  height: 100%;
+  align-items: center;
+  margin-right: 30px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
 .nav-link {
   height: 100%;
   opacity: .4;
@@ -91,17 +108,7 @@ a:active, a:hover {
   opacity: 1;
 }
 
-.nav-social {
-  height: 100%;
-  align-items: center;
-  margin-right: 30px;
-  display: flex;
-  position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
-}
+
 
 .collection-list {
   display: flex;
