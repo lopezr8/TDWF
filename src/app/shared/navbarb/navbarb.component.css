@@ -1,11 +1,11 @@
 
 .navbar {
   z-index: 999;
-  height: 72px;
+  height: 90px;
   color: #fff;
   background-color: rgba(0, 0, 0, .95);
   position: fixed;
-  top: 0%;
+  top: 2%;
   bottom: auto;
   left: 0%;
   right: 0%;

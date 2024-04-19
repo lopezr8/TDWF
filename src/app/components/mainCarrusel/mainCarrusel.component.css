@@ -1,3 +1,30 @@
-:host {
+.k {
+  display: flex;
+    justify-content: center;
+}
+/* .header{
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  font-size: 16px;
+  color: black; // color de la letra
+  height: 100px;
+
+
+
+} */
+.carousel-img {
+  width: 67%; /* Ancho predeterminado para pantallas grandes */
+  height: auto;
   display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-img {
+      width: 100%; /* Ancho completo para pantallas pequeñas (celulares) */
+  }
 }

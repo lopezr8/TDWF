@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TDRComponent } from '../TDR/TDR.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from '../../components/header/header.component';
 
 @Component({
   selector: 'app-navbarb',
@@ -9,7 +10,7 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     TDRComponent,
-    NgbCollapseModule
+    NgbCollapseModule,
   ],
   templateUrl: './navbarb.component.html',
   styleUrl: './navbarb.component.css',

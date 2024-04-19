@@ -1,8 +1,9 @@
 
 
 <ngb-carousel
+style="padding-top: 90px;"
 	#carousel
-	[interval]="1000"
+	[interval]="3000"
 	[pauseOnHover]="pauseOnHover"
 	[pauseOnFocus]="pauseOnFocus"
 	(slide)="onSlide($event)"
@@ -13,8 +14,8 @@
 				<h3>My slide {{ i + 1 }} title</h3>
 			</div>
 			<a href="https://www.google.fr/?q=Number+{{ i + 1 }}" target="_blank" rel="nofollow noopener noreferrer">
-				<div class="picsum-img-wrapper">
-					<img  src="../../../assets/tdr/ima.jpg"  style="width: 100%; display: block;" />
+				<div class="k">
+					<img  src="../../../assets/tdr/ima.jpg"  class="carousel-img"/>
 				</div>
 			</a>
 		</ng-template>
