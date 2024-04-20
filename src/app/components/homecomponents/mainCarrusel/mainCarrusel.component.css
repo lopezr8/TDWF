@@ -1,6 +1,7 @@
 .k {
   display: flex;
-    justify-content: center;
+  justify-content: center;
+  background-image:  url(/assets/backgrounds/b2.jpg);
 }
 /* .header{
   background-color: white;

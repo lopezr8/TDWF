@@ -13,9 +13,9 @@ style="padding-top: 90px;"
 			<div class="carousel-caption">
 				<h3>My slide {{ i + 1 }} title</h3>
 			</div>
-			<a href="https://www.google.fr/?q=Number+{{ i + 1 }}" target="_blank" rel="nofollow noopener noreferrer">
+			<a  target="_blank" rel="nofollow noopener noreferrer">
 				<div class="k">
-					<img  src="../../../assets/tdr/ima.jpg"  class="carousel-img"/>
+					<img  [src]="img"   class="carousel-img"/>
 				</div>
 			</a>
 		</ng-template>

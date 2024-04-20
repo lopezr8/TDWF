@@ -1,0 +1,42 @@
+.section {
+  z-index: 1;
+  background-color: #eee;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/backgrounds/b1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'tdr';
+  text-align: center;
+}
+
+span {
+  color: red;
+  font-size: 1.4em;
+  -webkit-text-stroke: 1px white;
+
+}
+
+@media only screen and (max-width: 768px) {
+  span {
+    -webkit-text-stroke: initial; /* Elimina la propiedad en pantallas pequeñas */
+  }
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-weight: 800;
+  line-height: 1.4;
+
+}
+
+h5 {
+  //font-weight: 2000;
+  color: white;
+}
+
+p {
+  font-size: 1.4em;
+  color: #DDDADA;
+
+
+}

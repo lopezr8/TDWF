@@ -16,7 +16,11 @@ import { ImageModule } from 'primeng/image';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainCarruselComponent {
-  images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/900/500`);
+
+  private URL = '../../../assets/tdr'
+
+
+  images:string[] = [ `${this.URL}/1.jpg`,`${this.URL}/2.jpg`,`${this.URL}/3.jpg`,`${this.URL}/4.jpg`,`${this.URL}/5.png`   ];
 
 	paused = false;
 	unpauseOnArrow = false;
