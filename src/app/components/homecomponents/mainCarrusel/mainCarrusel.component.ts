@@ -17,7 +17,7 @@ import { ImageModule } from 'primeng/image';
 })
 export class MainCarruselComponent {
 
-  private URL = '../../../assets/tdr'
+  private URL = './assets/tdr'
 
 
   images:string[] = [ `${this.URL}/1.jpg`,`${this.URL}/2.jpg`,`${this.URL}/3.jpg`,`${this.URL}/4.jpg`,`${this.URL}/5.png`   ];
