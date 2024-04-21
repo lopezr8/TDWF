@@ -1,0 +1,61 @@
+
+
+
+
+<div class="card-item w-dyn-item">
+  <div class="card-shadow">
+
+    @if (!even) {
+      <div class="carda is--double doublev "  >
+
+
+
+        <div class="column is--image">
+          <img class="card-image"  [src]= "image">
+        </div>
+        <div class="column is--about">
+            <div class="card-text">
+              <h3 class="heading"> {{title}} </h3>
+              <div class="about-wrap">
+                @for (d of descriptions; track $index) {
+                  <p> <span> {{d.title}}: </span>  {{d.description}}</p>
+
+                }
+              </div>
+              <a class="button w-button"> cotizar </a>
+
+            </div>
+        </div>
+
+      </div>
+    }@else {
+      <div class="carda is--double "  >
+
+        <div class="column is--image">
+          <img class="card-image"  [src]="image">
+        </div>
+        <div class="column is--about">
+            <div class="card-text">
+              <h3 class="heading"> {{title}}  </h3>
+              <div class="about-wrap">
+                @for (d of descriptions; track $index) {
+                  <p> <span> {{d.title}}: </span>  {{d.description}}</p>
+
+                }
+
+
+
+              </div>
+              <a class="button w-button"> cotizar </a>
+
+            </div>
+        </div>
+
+      </div>
+    }
+
+
+
+
+  </div>
+</div>

@@ -109,6 +109,10 @@ a:active, a:hover {
   opacity: 1;
 }
 
+.select{
+  opacity: 1;
+}
+
 
 
 .collection-list {

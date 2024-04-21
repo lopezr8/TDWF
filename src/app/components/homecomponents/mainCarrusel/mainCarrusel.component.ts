@@ -3,6 +3,12 @@ import { ChangeDetectionStrategy, Component, ViewChild } from '@angular/core';
 import { NgbCarousel, NgbCarouselModule, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
 import { ImageModule } from 'primeng/image';
 
+
+interface img {
+  url: string;
+  description: string;
+}
+
 @Component({
   selector: 'app-main-carrusel',
   standalone: true,
@@ -20,7 +26,13 @@ export class MainCarruselComponent {
   private URL = './assets/tdr'
 
 
-  images:string[] = [ `${this.URL}/1.jpg`,`${this.URL}/2.jpg`,`${this.URL}/3.jpg`,`${this.URL}/4.jpg`,`${this.URL}/5.png`   ];
+  images:img[] = [
+    {url: `${this.URL}/3b.jpg`, description: 'Servicios Profesionales de Decoración y Revestimiento'},
+    {url: `${this.URL}/2b.jpg`, description: 'Expertos en Acabados: Estucos, Pintura y Texturizados'},
+    {url: `${this.URL}/1b.jpg`, description: 'Calidad en Cada Detalle' },
+
+  {url: `${this.URL}/4b.jpg`, description: 'Garantía y Seguridad'},
+  {url: `${this.URL}/5b.jpg` , description: 'Durabilidad Garantizada'}  ];
 
 	paused = false;
 	unpauseOnArrow = false;

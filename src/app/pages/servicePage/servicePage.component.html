@@ -1,0 +1,33 @@
+
+<section class="section" style="padding-top: 90px;">
+  <div class="container w-container">
+
+      <div class="w-dyn-list">
+        <div class="w-dyn-items">
+
+
+
+
+          @for (service of services; track service;
+            let i = $index, first = $first, last = $last, even= $even, odd=$odd, count = $count) {
+
+            <app-card-item
+            [even]=" even?  true : false  "
+            [title]="service.title"
+            [descriptions]="service.descriptions"
+            [image]="service.image"
+
+            />
+      }
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+  </div>
+</section>
