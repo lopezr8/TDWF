@@ -1,0 +1,65 @@
+/* ESTILOS PARA PORTAFOLIO */
+@font-face {
+    font-family: 'tdr';
+    src: url('../../../../assets/fonts/tdr.otf') format('opentype');
+}
+  
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif ;
+    background: #ffffff;
+}
+
+
+header{
+    width: 100vw;
+    height: 55vh;
+    background: linear-gradient(
+        to right,
+        rgba(36, 9, 9, 0.8),
+        rgba(17, 6, 6, 0.8)
+    ), 
+    url(../../../../assets/img/portada3.webp);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        60% 100%,
+        0 80%
+    );
+    position: relative;
+}
+
+
+header .text-container{
+    display: block;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+
+header .text-container h1{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+header .text-container span{
+    color: orangered;
+    font-family: 'tdr';
+    font-size: 23px;
+}

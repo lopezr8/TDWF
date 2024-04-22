@@ -1,0 +1,160 @@
+/* ESTILOS PARA PORTAFOLIO */
+@font-face {
+    font-family: 'tdr';
+    src: url('../../../../assets/fonts/tdr.otf') format('opentype');
+}
+  
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif ;
+    background: #ffffff;
+}
+
+
+header{
+    width: 100vw;
+    height: 55vh;
+    background: linear-gradient(
+        to right,
+        rgba(36, 9, 9, 0.8),
+        rgba(17, 6, 6, 0.8)
+    ), 
+    url(../../../../assets/img/portafolio01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        60% 100%,
+        0 80%
+    );
+    position: relative;
+    
+}
+
+
+header .text-container{
+    display: block;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+
+header .text-container h1{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+header .text-container span{
+    color: orangered;
+    font-family: 'tdr';
+    font-size: 23px;
+}
+
+
+
+/* Estilos tarjetas para mostrar los proyectos */
+
+
+@media screen and (min-width: 992px) {
+
+    .card-item:nth-child(even) .black-label {
+        margin-right: -134px;
+        margin-left: -14px;
+        padding-right: 0px;
+        padding-left: 14px;
+    }
+    
+    
+    .card-item:nth-child(even) .card.is--double {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+    }
+    
+    
+    .card-item:nth-child(even) .card-text {
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+    }
+}
+
+
+/* Estilos globales */
+/* Estilos globales */
+.card {
+    display: flex;
+    flex-direction: column; /* Comportamiento predeterminado para pantallas pequeñas */
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centra la tarjeta */
+    max-width: 1200px; /* Ancho máximo para las tarjetas */
+    overflow: hidden; /* Evita desbordamientos */
+  }
+  
+  /* Estilos para la imagen */
+  .card .column.is--image {
+    max-width: 550px;
+    
+    flex: 2; /* Aumentar el tamaño relativo de la imagen */
+    overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
+  }
+  
+  .card .card-image {
+    width: 100%; /* La imagen debe ocupar todo el espacio */
+    height: 460px; /* Mantener proporciones correctas */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin desbordarse */
+  }
+  
+  /* Estilos para el texto */
+  .card .column.is--padding {
+    flex: 1; /* Menos espacio para el texto, más para la imagen */
+  }
+  
+  /* Consulta de medios para pantallas grandes */
+  @media (min-width: 768px) {
+    .card {
+      flex-direction: row; /* Elementos organizados horizontalmente */
+    }
+  
+    .card .column.is--image {
+      flex: 2; /* Más espacio para la imagen */
+    }
+  
+    .card .column.is--padding {
+      flex: 1; /* Menos espacio para el texto */
+    }
+  }
+  
+  /* Ajustes para etiquetas de título */
+  .black-label {
+    background: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 10px; /* Espaciado alrededor del texto */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+
+/*  */
+/*  */
+
+
