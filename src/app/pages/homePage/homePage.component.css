@@ -1,3 +1,13 @@
-:host {
-  display: block;
+.section {
+  z-index: 1;
+  background-color: #eee;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/backgrounds/b1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'tdr';
+  text-align: center;
+
+
+  position: relative;
+  overflow: hidden;
 }

@@ -1,4 +1,22 @@
 
 <app-main-carrusel />
-<app-beutiful-counters />
+
+<section class="section" style="padding-top: 30px;">
+@defer (on viewport) {
+
+
+    @defer (on timer(100))
+    {
+        <app-beutiful-counters />
+    }
+  } @placeholder {
+    <h1> </h1>
+  }
+
+
+</section>
+<!-- <app-beutiful-counters /> -->
+
+
+
 <app-services />
