@@ -261,7 +261,6 @@ h3 {
 span{
   color: black;
   font-size: 1.4em;
-  //text-transform: uppercase;
 
 }
 
@@ -360,7 +359,7 @@ p {
 .collection-item {
 
   width: 75%; /* Ajusta el ancho de las tarjetas al 100% */
-  //max-width: 400px; /* Establece un ancho máximo para las tarjetas */
+
 }
 
 
@@ -571,7 +570,6 @@ img {
 .collection-list-2 {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  //grid-template-rows: auto auto;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -599,7 +597,7 @@ img {
   .collection-item {
 
     width: 39%; /* Ajusta el ancho de las tarjetas al 100% */
-    //max-width: 400px; /* Establece un ancho máximo para las tarjetas */
+
   }
 
   .contact-link{
@@ -622,7 +620,7 @@ img {
   .collection-item {
 
     width: 39%; /* Ajusta el ancho de las tarjetas al 100% */
-    //max-width: 400px; /* Establece un ancho máximo para las tarjetas */
+
   }
 
   .contact-link{
