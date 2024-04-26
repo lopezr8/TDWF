@@ -23,7 +23,7 @@ interface Service {
 
 export class ServicePageComponent {
   services: Service[] =  [
-    {title:'ESTUCOS', descriptions: [ {title: 'Tradicional' , description: 'Técnica clásica que utiliza cal, arena y agua para crear una superficie duradera y elegante.'} , {title: 'Plásticos' , description: 'Alternativa moderna al estuco tradicional, utiliza resinas sintéticas para una aplicación fácil y resistencia al agua.'} , {title: ' Venecianos', description: 'Técnica decorativa de origen veneciano, emplea capas delgadas de yeso para un acabado brillante y sofisticado.'} ]  , image: './assets/tdr/1.jpg'},
+    {title:'ESTUCOS', descriptions: [ {title: 'Tradicional' , description: 'Técnica clásica que utiliza cal, arena y agua para crear una superficie duradera y elegante.'} , {title: 'Plásticos' , description: 'Alternativa moderna al estuco tradicional, utiliza resinas sintéticas para una aplicación fácil y resistencia al agua.'} , {title: ' Venecianos', description: 'Técnica decorativa de origen veneciano, emplea capas delgadas de yeso para un acabado brillante y sofisticado.'} ]  , image: './assets/tdr/services/12.JPG'},
     {title:'PINTURA', descriptions: [
       {
         "title": "Vinilo",
@@ -41,7 +41,7 @@ export class ServicePageComponent {
         "title": "Señalización",
         "description": "Pintura utilizada para señalización en interiores y exteriores, como marcas en pisos, paredes y equipos. Ofrece una excelente adherencia y visibilidad para comunicar mensajes importantes."
       }
-    ]  , image: './assets/tdr/1.jpg'},
+    ]  , image: './assets/tdr/services/1.jpg'},
    {title:'PAREDES', descriptions: [
     {
       "title": "Panel de Yeso",
@@ -51,7 +51,7 @@ export class ServicePageComponent {
       "title": "Fibrocemento",
       "description": "Pintura especialmente formulada para paredes de fibrocemento, un material duradero y resistente al agua. Ofrece una protección efectiva contra la humedad y los elementos exteriores."
     }
-  ], image: './assets/tdr/1.jpg'},
+  ], image: './assets/tdr/services/5.jpg'},
    {title: `SISTEMA DE REVOQUE`, descriptions: [
     {
       "title": "Seco",
@@ -61,7 +61,7 @@ export class ServicePageComponent {
       "title": "Estampillado",
       "description": "Pintura especialmente formulada para aplicarse en sistemas de revoque estampillado. Ofrece una amplia variedad de colores y acabados para crear efectos decorativos únicos en las paredes."
     }
-  ] , image: './assets/tdr/1.jpg'},
+  ] , image: './assets/tdr/services/8.jpg'},
    {title:'CIELO RASO', descriptions: [
     {
       "title": "Panel de Yeso",
@@ -75,7 +75,7 @@ export class ServicePageComponent {
       "title": "PVC",
       "description": "Pintura adecuada para cielos rasos de PVC, un material ligero y fácil de limpiar. Proporciona una capa protectora y decorativa que resalta la apariencia del cielo raso y ofrece resistencia a la humedad."
     }
-  ], image: './assets/tdr/1.jpg'},
+  ], image: './assets/tdr/services/2.jpg'},
    {title:'MUROS', descriptions: [
     {
       "title": "Panel de Yeso",
@@ -85,13 +85,13 @@ export class ServicePageComponent {
       "title": "Fibrocemento",
       "description": "Pintura formulada para muros de fibrocemento, un material resistente y duradero. Ofrece protección contra la humedad y los elementos exteriores, manteniendo una apariencia estética en aplicaciones tanto interiores como exteriores."
     }
-  ], image: './assets/tdr/1.jpg'},
+  ], image: './assets/tdr/services/4.jpg'},
        {title:'ENTREPISOS', descriptions: [
         {
           "title": "Fibrocemento",
           "description": "Pintura especialmente formulada para aplicarse en entrepisos de fibrocemento. Este tipo de pintura proporciona una capa protectora y decorativa para los entrepisos, ofreciendo resistencia a la humedad y durabilidad para mantener un aspecto estético en el tiempo."
         }
-      ], image: './assets/tdr/1.jpg'},
+      ], image: './assets/tdr/services/9.JPG'},
        {title:'AISLAMIENTO', descriptions: [
         {
           "title": "Aislamiento Acústico",
@@ -101,20 +101,20 @@ export class ServicePageComponent {
           "title": "Aislamiento Térmico",
           "description": "El aislamiento térmico es un material que ayuda a controlar la transferencia de calor entre el interior y el exterior de un edificio. Se utiliza para mantener una temperatura confortable en el interior, reduciendo la pérdida de calor en invierno y el ingreso de calor en verano. Este tipo de aislamiento puede instalarse en paredes, techos, pisos y ventanas para mejorar la eficiencia energética y reducir los costos de calefacción y refrigeración."
         }
-      ], image: './assets/tdr/1.jpg'},
+      ], image: './assets/tdr/services/7.jpg'},
        {title:'TEXTURAS', descriptions: [
         {
           "title": "Graniplast",
           "description": "Graniplast es un revestimiento texturizado utilizado para crear efectos decorativos en superficies interiores y exteriores. Está compuesto por partículas de mármol y cuarzo que proporcionan una textura única y resistente. Graniplast se aplica con una llana o espátula y luego se puede texturizar con diferentes técnicas para lograr el efecto deseado, como el estucado, el lijado o el cepillado. Este material es duradero, resistente a la intemperie y fácil de mantener, lo que lo hace ideal para proyectos de decoración y renovación."
         }
-      ], image: './assets/tdr/1.jpg'},
+      ], image: './assets/tdr/services/3.jpg'},
        {title:'TRABAJOS EN ALTURAS', descriptions: [
         {
           "title": "¿Que implica?",
           "description": "cualquier actividad realizada a una altura considerable sobre el suelo, como en andamios, plataformas elevadas, escaleras, techos o estructuras elevadas. Este tipo de trabajo puede incluir tareas de construcción, mantenimiento, reparación o instalación que requieren acceso a áreas elevadas. Es crucial seguir estrictas medidas de seguridad, como el uso de arneses de seguridad, barandillas, redes de protección y capacitación adecuada para prevenir caídas y minimizar los riesgos para la salud y la seguridad de los trabajadores."
         }
       ]
-       , image: './assets/tdr/1.jpg'},
+       , image: './assets/tdr/services/6.jpg'},
   ];
 
 }

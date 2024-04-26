@@ -7,6 +7,7 @@ import { Portafolio03Component } from './pages/portafolioPages/portafolio03/port
 import { Portafolio04Component } from './pages/portafolioPages/portafolio04/portafolio04.component';
 
 import { ServicePageComponent } from './pages/servicePage/servicePage.component';
+import { ContactPageComponent } from './pages/contactPage/contactPage.component';
 
 export const routes: Routes = [
 
@@ -19,5 +20,6 @@ export const routes: Routes = [
     { path: 'portafolio03', component: Portafolio03Component},
     { path: 'portafolio04', component: Portafolio04Component},
 
+    { path: 'contact', component: ContactPageComponent },
 
 ];

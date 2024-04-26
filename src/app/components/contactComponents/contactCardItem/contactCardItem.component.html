@@ -1,0 +1,117 @@
+
+
+
+
+<div class="card-item w-dyn-item">
+  <div class="card-shadow">
+
+      <div class="carda is--double "  >
+        <!-- <div class="black-line"></div> -->
+
+        <div class="column is--image">
+
+          <div class="card-container">
+
+            <div class="collection-list-2 ">
+
+              <div class="collection-item ">
+
+                <div class="card-simple">
+
+                    <img class="icon" src="	https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282de0df5e9f7bf224714_telephone-icon.svg">
+                    <div class="contact-label" > Telefono </div>
+                    <a class="contact-link"> 316 539 3147  </a>
+
+                    <!-- <h3 class="card-title"> {{service.title}} </h3> -->
+                    <!-- <p class="p-card"> {{service.description}}  </p> -->
+                </div>
+
+              </div>
+
+              <div class="collection-item ">
+                <div class="card-simple">
+
+
+                    <!-- <h3 > hola </h3> -->
+                    <img class="icon" src="https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282def05f03e30aeae617_email-icon.svg">
+                    <div class="contact-label" > Email </div>
+                    <a class="contact-link"> {{email}}  </a>
+                    <!-- <img class="icon" [src]="service.image"> -->
+                    <!-- <a class="button w-button card-title" style="background-color: #00532d;"> Cotizar </a>
+
+                    <a class="button w-button card-title" style="background-color: #8d6900;" routerLink="/services"> Ir a servicios</a>
+                    <a class="button w-button card-title" style="background-color: #560101;" routerLink="/portafolio"> Portafolio</a> -->
+                    <!-- <h3 class="card-title"> {{service.title}} </h3> -->
+                    <!-- <p class="p-card"> {{service.description}}  </p> -->
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="column is--about">
+
+          <div class="form-h-wrap">
+            <h2 class="form-heading">ENVIAME UN MAIL</h2>
+            <div class="label">Te respondo lo mas rapido posible!</div>
+          </div>
+
+          <div>
+
+            <form class="form-apply-grid" [formGroup]="myForm">
+                <div class="field-wrap">
+                  <label class="field-label">Nombre</label>
+                  <input class="field-box w-input" formControlName="name">
+                </div>
+                <div class="field-wrap">
+                  <label class="field-label">Apellido</label>
+                  <input class="field-box w-input"formControlName="lastName">
+                </div>
+                <div class="field-wrap em">
+                  <label class="field-label">Email o numero de telefono </label>
+                  <input class="field-box w-input" formControlName="info">
+                </div>
+                <div class="field-wrap em">
+                  <label class="field-label">Mensaje</label>
+                  <input class="text-area w-input" formControlName="message" >
+                </div>
+
+                @if (myForm.valid) {
+
+                  <div class="field-wrap">
+                    <input class="button-on w-button" type="submit" value="Enviar" (click)="sendEmail()">
+                  </div>
+                }@else{
+
+                  <div class="button-off">
+                    <div class="button-off-text"> Enviar </div>
+
+                  </div>
+                }
+
+            </form>
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+  </div>
+</div>
+
+
+
+
+
