@@ -7,6 +7,7 @@ h1 {
   font-family: 'tdr';
   font-size: 3em;
   cursor: pointer;
+  padding-top: 9px;
 
 }
 h1:hover {

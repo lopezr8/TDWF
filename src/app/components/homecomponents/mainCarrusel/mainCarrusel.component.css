@@ -18,7 +18,7 @@
 
 } */
 .carousel-img {
-  width: 58%; /* Ancho predeterminado para pantallas grandes */
+  width: 60%; /* Ancho predeterminado para pantallas grandes */
   height: auto;
   display: block;
   margin: 0 auto;
