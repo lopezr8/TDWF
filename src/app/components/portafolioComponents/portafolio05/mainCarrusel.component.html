@@ -1,0 +1,29 @@
+
+
+  <ngb-carousel
+     [ngClass]="'carousel-dark'"
+
+    style="padding-top: 90px;"
+    #carousel
+    [interval]="3000"
+    [pauseOnHover]="pauseOnHover"
+    [pauseOnFocus]="pauseOnFocus"
+    (slide)="onSlide($event)"
+  >
+    @for (img of images; track img; let i = $index) {
+      <ng-template ngbSlide>
+        <div class="carousel-caption">
+          <h3> {{img.description}}</h3>
+        </div>
+        <a  target="_blank" rel="nofollow noopener noreferrer">
+          <div class="k">
+            <img  [src]="img.url"   class="carousel-img"/>
+          </div>
+        </a>
+      </ng-template>
+    }
+  </ngb-carousel>
+
+
+
+
