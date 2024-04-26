@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 export interface description {
   title: string;
@@ -11,6 +12,7 @@ export interface description {
   standalone: true,
   imports: [
     CommonModule,
+    RouterModule
   ],
   templateUrl: './cardItem.component.html',
   styleUrl: './cardItem.component.css',

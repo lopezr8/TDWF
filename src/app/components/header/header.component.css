@@ -15,6 +15,8 @@
 
 }
 
+
+
 .container {
   font-weight: 600;
   text-align: left;
@@ -23,6 +25,13 @@
   max-width: 1080px;
   padding-left: 0px;
   margin-left: 20px;
+}
+
+
+@media screen and (max-width: 479px){
+  .container {
+      width: 81%;
+  }
 }
 
 
