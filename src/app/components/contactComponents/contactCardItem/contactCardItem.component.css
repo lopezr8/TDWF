@@ -86,7 +86,7 @@
   background-color: #c8c8c8;
   overflow: hidden;
   grid-row-gap: 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/backgrounds/b1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/../../../../assets/backgrounds/b1.jpg);
   display: flex; /* Hace que los elementos hijos se comporten como flex items */
   justify-content: center; /* Centra horizontalmente los elementos hijos */
   align-items: center; /* Centra verticalmente los elementos hijos */

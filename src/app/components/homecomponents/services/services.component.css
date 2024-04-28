@@ -9,7 +9,7 @@
 }
 
 .section.is--services {
-  background-image:  url(/assets/backgrounds/b2.jpg);
+  background-image:  url(/../../../assets/backgrounds/b2.jpg);
   margin-top: -30px;
   backdrop-filter: blur(10px);
   background-position: 0 0;
