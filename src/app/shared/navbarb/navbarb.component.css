@@ -8,7 +8,7 @@
   bottom: auto;
   left: 0%;
   right: 0%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/../../../assets/backgrounds/b1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../assets/backgrounds/b1.jpg);
 }
 
 .nav-container {
@@ -130,7 +130,7 @@
   .xd {
     text-align: center;
     min-width: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/../../..assets/backgrounds/b1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../assets/backgrounds/b1.jpg);
     position: absolute;
     top: 100%;
     left: 0;
