@@ -8,12 +8,14 @@
   z-index: 1000;
   position: fixed;
   font-size: 1.1em;
-  color: black; // color de la letra
-  height: 100px;
-  background-image:  url(/assets/backgrounds/b2.jpg);
+  color: black;
+  height: 31px;
+  background-image:  url(../../../assets/backgrounds/b2.jpg);
 
 
 }
+
+
 
 .container {
   font-weight: 600;
@@ -23,6 +25,13 @@
   max-width: 1080px;
   padding-left: 0px;
   margin-left: 20px;
+}
+
+
+@media screen and (max-width: 479px){
+  .container {
+      width: 100%;
+  }
 }
 
 

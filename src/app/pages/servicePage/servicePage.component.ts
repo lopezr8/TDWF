@@ -21,6 +21,7 @@ interface Service {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 
+//todo: el boton cotizar debe mandar a contact
 export class ServicePageComponent {
   services: Service[] =  [
     {title:'ESTUCOS', descriptions: [ {title: 'Tradicional' , description: 'Técnica clásica que utiliza cal, arena y agua para crear una superficie duradera y elegante.'} , {title: 'Plásticos' , description: 'Alternativa moderna al estuco tradicional, utiliza resinas sintéticas para una aplicación fácil y resistencia al agua.'} , {title: ' Venecianos', description: 'Técnica decorativa de origen veneciano, emplea capas delgadas de yeso para un acabado brillante y sofisticado.'} ]  , image: './assets/tdr/services/12.JPG'},

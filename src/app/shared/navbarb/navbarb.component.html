@@ -4,19 +4,19 @@
 
     <button class="navbar-toggler"  style="color: white;" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
 
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" >
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse " >
 
-      <nav class=" nav-menu">
+      <nav class=" nav-menu xd"   >
         <!-- <nav class="navbar-nav"> -->
 
-          <a class="nav-link" routerLink="./home"routerLinkActive="select">Home</a>
-          <a class="nav-link" routerLink="./services"routerLinkActive="select" >Servicios</a>
-          <a class="nav-link" routerLink="./portafolio" routerLinkActive="select">Portafolio</a>
-          <a class="nav-link" routerLink="./contact" routerLinkActive="select">Contacto</a>
+          <a class="nav-link" routerLink="./home"routerLinkActive="select"  (click)="isMenuCollapsed = true">Home</a>
+          <a class="nav-link" routerLink="./services"routerLinkActive="select" (click)="isMenuCollapsed = true">Servicios</a>
+          <a class="nav-link" routerLink="./portafolio" routerLinkActive="select" (click)="isMenuCollapsed = true">Portafolio</a>
+          <a class="nav-link" routerLink="./contact" routerLinkActive="select" (click)="isMenuCollapsed = true">Contacto</a>
 
 
 
-          <div class="nav-social">
+          <div class="nav-social is-mobile">
 
 
               <div class="collection-list">
@@ -47,8 +47,19 @@
 
 
   </div>
+
 </nav>
 
+<!-- <div class="w-nav-overlay" style="height: 8844.33px; display: block;">
+  <nav class="nav-menu w-nav-menu">
+    <a class="nav-link w-nav-link "> CESAR </a>
+    <a class="nav-link w-nav-link "> onias</a>
+    <a class="nav-link w-nav-link "> onias</a>
+    <a class="nav-link w-nav-link "> onias</a>
+    <a class="nav-link w-nav-link "> onias</a>
+
+  </nav>
+</div> -->
 
 
 
