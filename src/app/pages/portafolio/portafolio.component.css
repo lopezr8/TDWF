@@ -91,7 +91,7 @@ header .text-container span{
 
 .mediaCard {
     /* background: url(../../../assets/img/proyectos01.jpg) center/cover; */
-    height: 250px;
+    height: 310px;
     width: 100%; /* Asegura que la imagen cubra toda la tarjeta */
 }
 
