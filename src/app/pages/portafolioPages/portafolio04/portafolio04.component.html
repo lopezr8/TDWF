@@ -33,41 +33,25 @@
     <div class="container w-container">
         
         <div class="w-embed">
-            <style>
-                @media screen and (min-width: 992px) {
-                    .card-item:nth-child(even) .black-label {
-                        margin-right: -134px;
-                        margin-left: -14px;
-                        padding-right: 0px;
-                        padding-left: 14px;
-                    }
-
-                    .card-item:nth-child(even) .card.is--double {
-                        -webkit-box-orient: horizontal;
-                        -webkit-box-direction: reverse;
-                        -webkit-flex-direction: row-reverse;
-                        -ms-flex-direction: row-reverse;
-                        flex-direction: row-reverse;
-                    }
-
-                    .card-item:nth-child(even) .card-text {
-                        -webkit-box-align: stretch;
-                        -webkit-align-items: stretch;
-                        -ms-flex-align: stretch;
-                        align-items: stretch;
-                    }
-                }
-            </style>
+           
         </div>
         <div class="w-dyn-list">
             <div role="list" class="w-dyn-items">
+
+
+
                 <div role="listitem" class="card-item w-dyn-item">
-                    
                     <div class="card-shadow">
                         <div class="card is--double">
                             
-                            <div class="column is--image">
-                                <app-main-carrusel />
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores1-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores1-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores1-3.jpg'},
+                                    ]">
+                                </app-main-carrusel>
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -89,13 +73,22 @@
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
                 <div role="listitem" class="card-item w-dyn-item">
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia02.JPG" loading="lazy" alt="Bioclimatic house" sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores10-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores10-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores10-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores10-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores10-1.jpg'},
+                                    ]">
+                                </app-main-carrusel>
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -119,11 +112,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div role="listitem" class="card-item w-dyn-item">
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia05.jpg" loading="lazy" alt="Διαμερίσματα με θέα Ακρόπολη στον Κεραμεικό." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores12-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores12-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores12-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores12-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores12-5.JPG'},
+                                    ]">
+                                </app-main-carrusel>                            
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -147,11 +149,21 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div role="listitem" class="card-item w-dyn-item">
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia04.jpg" loading="lazy" alt="Kεντρική Πύλη 401 ΓΣΝΑ" sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores2-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores2-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores2-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores2-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores2-5.jpg'},
+                                    ]">
+                                </app-main-carrusel>                            
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -176,16 +188,23 @@
                     </div>
                 </div>
 
-                <div role="listitem" class="card-item w-dyn-item">
+                 <div role="listitem" class="card-item w-dyn-item">
                     <div class="card-shadow">
                         <div class="card is--double">
-                            <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia01.jpg" loading="lazy" alt="Μοντέρνα κατοικία μέσα στον ιστό της πόλης, Χαλκίδα." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                            
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores8-1.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores8-2.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores8-3.JPG'},
+                                    ]">
+                                </app-main-carrusel>
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
                                     <div class="black-label">
-                                        <h3 class="label-text">Private Residence</h3>
+                                        <h3 class="label-text">Sea-View Apartments</h3>
                                     </div>
                                     <div class="details-wrap">
                                         <div class="label is--dark">Location</div>
@@ -193,17 +212,287 @@
                                     </div>
                                     <div class="details-wrap">
                                         <div class="label is--dark">Status</div>
-                                        <p>Completed in 2007</p>
+                                        <p>Completed in 2008</p>
                                     </div>
                                     <div class="details-wrap is--no-padding">
                                         <div class="label is--dark">Description</div>
-                                        <p>This residential project is for an urban double family house located in the city of Chalkida. The main idea is to unite the two residences into one discriminated whole so that they are both parts of one concrete volume. Selected parts of the volume are partitioned to establish an indoor-outdoor connection. The different parts of the synthesis are cladded with different materials. </p>
+                                        <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. Being both next to the sea and to a neo-classical house has to adopt a double character. The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores9-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores9-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores9-3.jpg'},
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">bioclimatic-building</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Drafi, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Under construction</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This house is located in a rocky ridge with abrupt slopes.The need to create the minimum imprint in the surroundings along with creating a green ,energy-efficient building, led to the decision to drill the slope, instead of arranging a set of spaces at different levels.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-6.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores3-7.jpg'},
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Sea-View Apartments</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2008</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. Being both next to the sea and to a neo-classical house has to adopt a double character. The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <!-- <img src="../../../../assets/img/imagenesInteriores/int" alt=""> -->
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores4-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores4-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores4-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores4-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores4-6.jpg'},
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">bioclimatic-building</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Drafi, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Under construction</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This house is located in a rocky ridge with abrupt slopes.The need to create the minimum imprint in the surroundings along with creating a green ,energy-efficient building, led to the decision to drill the slope, instead of arranging a set of spaces at different levels.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores6-6.JPG'},
+
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Sea-View Apartments</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2008</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. Being both next to the sea and to a neo-classical house has to adopt a double character. The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores7-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores7-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores7-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores7-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores7-5.jpg'},
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">bioclimatic-building</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Drafi, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Under construction</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This house is located in a rocky ridge with abrupt slopes.The need to create the minimum imprint in the surroundings along with creating a green ,energy-efficient building, led to the decision to drill the slope, instead of arranging a set of spaces at different levels.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-1.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-2.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-3.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-4.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-5.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores11-6.JPG'},
+
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Sea-View Apartments</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2008</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. Being both next to the sea and to a neo-classical house has to adopt a double character. The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores5-1.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores5-2.JPG'},
+                                        {url: '../../../../assets/img/imagenesInteriores/interiores5-3.JPG'},
+                                    ]">
+                                </app-main-carrusel>
+                            </div>
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">bioclimatic-building</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Drafi, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Under construction</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This house is located in a rocky ridge with abrupt slopes.The need to create the minimum imprint in the surroundings along with creating a green ,energy-efficient building, led to the decision to drill the slope, instead of arranging a set of spaces at different levels.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
         <div class="see-more-wrap">

@@ -32,39 +32,26 @@
     <div class="container w-container">
         
         <div class="w-embed">
-            <style>
-                @media screen and (min-width: 992px) {
-                    .card-item:nth-child(even) .black-label {
-                        margin-right: -134px;
-                        margin-left: -14px;
-                        padding-right: 0px;
-                        padding-left: 14px;
-                    }
-
-                    .card-item:nth-child(even) .card.is--double {
-                        -webkit-box-orient: horizontal;
-                        -webkit-box-direction: reverse;
-                        -webkit-flex-direction: row-reverse;
-                        -ms-flex-direction: row-reverse;
-                        flex-direction: row-reverse;
-                    }
-
-                    .card-item:nth-child(even) .card-text {
-                        -webkit-box-align: stretch;
-                        -webkit-align-items: stretch;
-                        -ms-flex-align: stretch;
-                        align-items: stretch;
-                    }
-                }
-            </style>
+            
         </div>
         <div class="w-dyn-list">
             <div role="list" class="w-dyn-items">
                 <div role="listitem" class="card-item w-dyn-item">
+                    
                     <div class="card-shadow">
                         <div class="card is--double">
-                            <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia03.JPG" loading="lazy" alt="Πολυτελής παραθαλάσσια πολυκατοικία στην Χαλκίδα Ελλάδα." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                            
+                            <div class="column is--image" >
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia2-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia2-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia2-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia2-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia2-6.jpg'}
+
+                                    ]">
+                                </app-main-carrusel>
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -86,13 +73,26 @@
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
                 <div role="listitem" class="card-item w-dyn-item">
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia02.JPG" loading="lazy" alt="Bioclimatic house" sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-6.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-7.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-8.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia8-9.jpg'}
+                                    ]">
+                                </app-main-carrusel>
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -120,7 +120,15 @@
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia05.jpg" loading="lazy" alt="Διαμερίσματα με θέα Ακρόπολη στον Κεραμεικό." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia3-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia3-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia3-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia3-5.jpg'}
+
+                                    ]">
+                                </app-main-carrusel>                            
                             </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
@@ -148,8 +156,13 @@
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia04.jpg" loading="lazy" alt="Kεντρική Πύλη 401 ΓΣΝΑ" sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
-                            </div>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia4-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia4-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia4-3.jpg'},
+                                    ]">
+                                </app-main-carrusel>                            </div>
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
                                     <div class="black-label">
@@ -177,8 +190,18 @@
                     <div class="card-shadow">
                         <div class="card is--double">
                             <div class="column is--image">
-                                <img src="../../../../assets/img/iglesia01.jpg" loading="lazy" alt="Μοντέρνα κατοικία μέσα στον ιστό της πόλης, Χαλκίδα." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" class="card-image"/>
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia1-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia1-7.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia1-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia1-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia1-5.jpg'},
+                                        
+                                    ]">
+                                </app-main-carrusel>                    
                             </div>
+
                             <div class="column is--padding">
                                 <div class="card-text is--featured">
                                     <div class="black-label">
@@ -201,6 +224,168 @@
                         </div>
                     </div>
                 </div>
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-4.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-5.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia5-6.jpg'}
+                                    ]">
+                                </app-main-carrusel>                    
+                            </div>
+
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Private Residence</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2007</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This residential project is for an urban double family house located in the city of Chalkida. The main idea is to unite the two residences into one discriminated whole so that they are both parts of one concrete volume. Selected parts of the volume are partitioned to establish an indoor-outdoor connection. The different parts of the synthesis are cladded with different materials. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-1.JPG'},                                   
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-3.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-6.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-2.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-7.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia6-8.JPG'}
+                                    ]">
+                                </app-main-carrusel>                      
+                            </div>
+
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Private Residence</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2007</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This residential project is for an urban double family house located in the city of Chalkida. The main idea is to unite the two residences into one discriminated whole so that they are both parts of one concrete volume. Selected parts of the volume are partitioned to establish an indoor-outdoor connection. The different parts of the synthesis are cladded with different materials. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia7-1.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia7-2.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia7-3.jpg'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia7-4.jpg'}
+                                    ]">
+                                </app-main-carrusel>                    
+                            </div>
+
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Private Residence</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2007</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This residential project is for an urban double family house located in the city of Chalkida. The main idea is to unite the two residences into one discriminated whole so that they are both parts of one concrete volume. Selected parts of the volume are partitioned to establish an indoor-outdoor connection. The different parts of the synthesis are cladded with different materials. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <img src="../../../../assets/img/imagenesIglesia/iglesia9" alt=""> -->
+
+
+
+                <div role="listitem" class="card-item w-dyn-item">
+                    <div class="card-shadow">
+                        <div class="card is--double">
+                            <div class="column is--image">
+                                <app-main-carrusel
+                                    [images]="[
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia9-1.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia9-2.JPG'},
+                                        {url: '../../../../assets/img/imagenesIglesia/iglesia9-3.JPG'}                                    
+                                    ]">
+                                </app-main-carrusel>                    
+                            </div>
+
+                            <div class="column is--padding">
+                                <div class="card-text is--featured">
+                                    <div class="black-label">
+                                        <h3 class="label-text">Private Residence</h3>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Location</div>
+                                        <p>Chalkida, Greece</p>
+                                    </div>
+                                    <div class="details-wrap">
+                                        <div class="label is--dark">Status</div>
+                                        <p>Completed in 2007</p>
+                                    </div>
+                                    <div class="details-wrap is--no-padding">
+                                        <div class="label is--dark">Description</div>
+                                        <p>This residential project is for an urban double family house located in the city of Chalkida. The main idea is to unite the two residences into one discriminated whole so that they are both parts of one concrete volume. Selected parts of the volume are partitioned to establish an indoor-outdoor connection. The different parts of the synthesis are cladded with different materials. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
             </div>
         </div>
         <div class="see-more-wrap">

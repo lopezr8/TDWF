@@ -26,7 +26,7 @@ header{
         rgba(36, 9, 9, 0.8),
         rgba(17, 6, 6, 0.8)
     ), 
-    url(../../../../assets/img/portada3.webp);
+    url(../../../../assets/img/imagenesInteriores/interiores9-2.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -64,4 +64,40 @@ header .text-container span{
     font-size: 23px;
 }
 
+
+.column.is--image {
+    margin-top: -100px;
+  }
+  
+/* 
+  .card.is--double {
+    height: 500px; 
+} */
+  /*  */
+
+
+
+@media screen and (min-width: 992px) {
+    .card-item:nth-child(even) .black-label {
+        margin-right: -134px;
+        margin-left: -14px;
+        padding-right: 0px;
+        padding-left: 14px;
+    }
+
+    .card-item:nth-child(even) .card.is--double {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .card-item:nth-child(even) .card-text {
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+}
 

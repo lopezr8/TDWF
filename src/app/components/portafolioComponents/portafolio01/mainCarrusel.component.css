@@ -17,9 +17,12 @@
 
 
 } */
+
+
+
 .carousel-img {
   width: 100%; /* Ancho predeterminado para pantallas grandes */
-  height: auto;
+  height: 580px;
   display: block;
   margin: 0 auto;
   /* filter: brightness(0.5); */
@@ -42,11 +45,12 @@
   text-align: center;
 }
 
+
 .carousel-caption h3 {
 
   font-size: 5vw;
 
-  //font-weight: bold;
+  /* //font-weight: bold; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   font-family: 'tdr';
 }

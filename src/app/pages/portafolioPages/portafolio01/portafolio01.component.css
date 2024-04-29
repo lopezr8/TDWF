@@ -12,35 +12,9 @@
   box-sizing: border-box;
 }
 
-/* body{
+body{
   font-family: 'Poppins', sans-serif ;
   background: #ffffff;
-} */
-
-body {
-color: #000;
-font-family: Montserrat, sans-serif;
-font-size: 12px;
-font-weight: 400;
-line-height: 1;
-}
-
-
-
-body {
-min-height: 100%;
-color: #333;
-background-color: #fff;
-margin: 0;
-font-family: Arial, sans-serif;
-font-size: 14px;
-line-height: 20px;
-}
-
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  font-family: sans-serif;
 }
 
 
@@ -52,7 +26,7 @@ header{
       rgba(36, 9, 9, 0.8),
       rgba(17, 6, 6, 0.8)
   ), 
-  url(../../../../assets/img/portafolio01.jpg);
+  url(../../../../assets/img/imagenesIglesia/iglesia8-2.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -64,7 +38,6 @@ header{
       0 80%
   );
   position: relative;
-  
 }
 
 
@@ -89,4 +62,40 @@ header .text-container span{
   color: orangered;
   font-family: 'tdr';
   font-size: 23px;
+}
+
+
+.column.is--image {
+  margin-top: -100px;
+}
+
+/* 
+.card.is--double {
+  height: 500px; 
+} */
+/*  */
+
+
+@media screen and (min-width: 992px) {
+    .card-item:nth-child(even) .black-label {
+        margin-right: -134px;
+        margin-left: -14px;
+        padding-right: 0px;
+        padding-left: 14px;
+    }
+
+    .card-item:nth-child(even) .card.is--double {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .card-item:nth-child(even) .card-text {
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
 }
