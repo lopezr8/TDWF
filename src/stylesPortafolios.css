@@ -286,7 +286,7 @@ div {
 
 .section.is--featured-projects {
   background-color: #f5f5f5;
-  background-image: url(https://uploads-ssl.webflow.com/60b280b…/60b282d…_tile-texture.jpg);
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-size: auto;
 }
 .section {
@@ -295,6 +295,7 @@ div {
   padding-right: 30px;
   position: relative;
   overflow: hidden;
+  background-image: url(../src/assets/backgrounds/b2.jpg);
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
@@ -342,7 +343,7 @@ section {
 
 .section.is--featured-projects {
   background-color: #f5f5f5;
-  background-image: url(https://uploads-ssl.webflow.com/60b280b…/60b282d…_tile-texture.jpg);
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-size: auto;
 }
 
@@ -555,7 +556,7 @@ element.style {
 }
 .section.is--featured-projects {
     background-color: #f5f5f5;
-    background-image: url(https://uploads-ssl.webflow.com/60b280b…/60b282d…_tile-texture.jpg);
+    background-image: url(../src/assets/backgrounds/b2.jpg);
     background-size: auto;
 }
 
@@ -3015,21 +3016,21 @@ ul {
 .section.is--welcome {
   z-index: 1;
   background-color: #eee;
-  background-image: url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282e0556ad28c933f5b88_texture.jpg");
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section.is--featured-projects {
   background-color: #f5f5f5;
-  background-image: url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282df84c6fccb1bdc2d62_tile-texture.jpg");
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-size: auto;
 }
 
 .section.is--pre-footer {
   color: #fff;
   background-color: #333;
-  background-image: url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b288771c7edd54b4f2ae35_dark-geometric-pattern.jpg");
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3043,7 +3044,7 @@ ul {
 }
 
 .section.is--services {
-  background-image: url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282df0e0fd836392a0c89_light-geometric-pattern.jpg");
+  background-image: url(../src/assets/backgrounds/b2.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4212,7 +4213,7 @@ ul {
   }
 
   .section.is--welcome {
-    background-image: linear-gradient(rgba(243, 243, 243, .69), rgba(243, 243, 243, .69)), url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b3c56515595b50015a3c80_white-pattern.png"), url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282e0556ad28c933f5b88_texture.jpg");
+    /* background-image: linear-gradient(rgba(243, 243, 243, .69), rgba(243, 243, 243, .69)), url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b3c56515595b50015a3c80_white-pattern.png"), url("https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b282e0556ad28c933f5b88_texture.jpg"); */
     background-position: 0 0, 0 0, 0 0;
     background-repeat: repeat, repeat, repeat;
     background-size: auto, auto, auto;
