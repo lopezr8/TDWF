@@ -197,6 +197,7 @@ p {
 @media screen and (max-width: 479px) {
   .button {
       text-align: center;
+      width: 18.5em
   }
 }
 

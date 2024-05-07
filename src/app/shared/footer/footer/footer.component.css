@@ -1,0 +1,164 @@
+.footer {
+  z-index: 1;
+  color: #fff;
+  background-color: #141414;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'tdr';
+}
+
+.w-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .w-container {
+      max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .w-container {
+      max-width: none;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1168px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+      max-width: 600px;
+      padding-top: 110px;
+      padding-bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+      padding-top: 95px;
+      padding-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+}
+
+.container.is--footer {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 35px;
+  display: flex;
+}
+
+
+.copyright-wrap {
+  color: #818181;
+  letter-spacing: 2px;
+  align-items: center;
+  margin-top: 42px;
+  font-size: 1.2em;
+  display: flex;
+}
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link {
+  height: 100%;
+  opacity: .4;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 600;
+  transition: opacity .2s;
+  display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .footer-links, .copyright-wrap {
+      flex-direction: column;
+  }
+}
+
+.separator {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 479px) {
+  .separator {
+      display: none;
+  }
+}
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.button {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #000;
+  border-radius: 4px;
+  padding: 23px 33px;
+  font-size: 1em;
+  font-weight: 700;
+  transition: all .2s;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+      justify-content: center;
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .button {
+      text-align: center;
+  }
+}
+
+
+.card-title {
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.83333em;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 479px){
+  .card-title {
+      font-size: 1.7em;
+  }
+
+}

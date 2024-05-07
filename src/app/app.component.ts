@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarbComponent } from './shared/navbarb/navbarb.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './shared/footer/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     RouterOutlet,
     NavbarbComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
 
   ],
   templateUrl: './app.component.html',
