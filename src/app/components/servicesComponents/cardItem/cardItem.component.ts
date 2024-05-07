@@ -13,6 +13,7 @@ export interface description {
   imports: [
     CommonModule,
     RouterModule
+
   ],
   templateUrl: './cardItem.component.html',
   styleUrl: './cardItem.component.css',
