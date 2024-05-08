@@ -102,3 +102,24 @@ header .text-container span{
     }
 }
 
+
+
+  .card-text p {
+    font-size: 18px !important; /* Aplicar con mayor especificidad */
+  }
+
+  .label.is--dark {
+    font-size: 18px !important; /* Tamaño predeterminado */
+  }
+  
+  @media (max-width: 767px) {
+    .label.is--dark {
+      font-size: 14px !important; /* Tamaño para pantallas pequeñas */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .label.is--dark {
+      font-size: 18px !important; /* Tamaño para pantallas más grandes */
+    }
+  }
