@@ -1,14 +1,14 @@
 
 
-<footer class="footer">
+<footer class="footer"  [class]="{'b': !link , 'b1':link }" >
   <div class="container is--footer w-container" >
-    <div class="copyright-wrap ">
+    <div [class]="{'copyright-wrap': !link, 'copyright-wrapa': link}">
       <div>
         © {{test | date: 'yyyy'}}, made by Guerrero&Lopez-SoftwareSolutions
       </div>
       <div class="separator">|</div>
       <div>
-        <a class="nav-link" >Contacto</a>
+        <a [class]="{'nav-link': !link , 'nav-linka': link }" href="https://wa.link/735vp0" >Contacto</a>
       </div>
     </div>
   </div>

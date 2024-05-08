@@ -4,6 +4,7 @@ import { MainCarruselComponent } from '../../components/homecomponents/mainCarru
 import { BeutifulCountersComponent } from '../../components/homecomponents/beutifulCounters/beutifulCounters.component';
 import { ServicesComponent } from '../../components/homecomponents/services/services.component';
 import { ButtonModule } from 'primeng/button';
+import { AboutUsComponent } from '../../components/homecomponents/aboutUs/aboutUs.component';
 
 @Component({
   selector: 'app-home-page',
@@ -13,7 +14,8 @@ import { ButtonModule } from 'primeng/button';
     MainCarruselComponent,
     BeutifulCountersComponent,
     ServicesComponent,
-    ButtonModule
+    ButtonModule,
+    AboutUsComponent
   ],
   templateUrl: './homePage.component.html',
   styleUrl: './homePage.component.css',

@@ -112,8 +112,16 @@ export class ServicePageComponent {
       ], image: './assets/tdr/services/16.jpg'},
        {title:'TRABAJOS EN ALTURAS', descriptions: [
         {
-          "title": "¿Que implica?",
-          "description": "cualquier actividad realizada a una altura considerable sobre el suelo, como en andamios, plataformas elevadas, escaleras, techos o estructuras elevadas. Este tipo de trabajo puede incluir tareas de construcción, mantenimiento, reparación o instalación que requieren acceso a áreas elevadas. Es crucial seguir estrictas medidas de seguridad, como el uso de arneses de seguridad, barandillas, redes de protección y capacitación adecuada para prevenir caídas y minimizar los riesgos para la salud y la seguridad de los trabajadores."
+          "title": "• Pintura de fachada.",
+          "description": ""
+        },
+        {
+          "title": "• Estuco acrílico.",
+          "description": ""
+        },
+        {
+          "title": "• Pintura exteriores.",
+          "description": ""
         }
       ]
        , image: './assets/tdr/services/6.jpg'},
